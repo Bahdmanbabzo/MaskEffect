@@ -4,6 +4,7 @@ This repo shows a simple implementation of the mask effect with an added interac
 
 ## Demo
 
+https://github.com/user-attachments/assets/500ed617-2c15-4aa5-a37d-7100cb19bc16
 
 ## Setup
 
