@@ -7,5 +7,13 @@ This repo shows a simple implementation of the mask effect with an added interac
 
 ## Setup
 
-This project was built with react in vite, installed using npm. Clone the repo `cd` to root *maskeffect* and `npm install`. 
-`npm run dev` after installing dependencies to run dev server.
+- Clone the repo.
+-  `cd` to root **maskeffect**.
+- `npm install`. 
+- `npm run dev` after installing dependencies to run dev server.
+
+## Compatibility
+
+> **Note**
+>
+> Current version of chrome doesn't support `mask-repeat` fully so this might show up as multiple masks. Edge browser works better with this feature. Developers working on this can try `webkit-mask-repeat`
