@@ -2,7 +2,12 @@ import { useAnimate,motion} from "framer-motion"
 import { useEffect, useState } from "react";
 
 function App() {
+  const [scope, animate] = useAnimate()
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  const box = document.getElementById("mask-parent")
+  const handleClick = () => {
+    animate(box, {clipPath:['polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)','polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)' ]}, {duration:2})
+  }
   useEffect(()=> {
     const handleMouseMove = (e) => {
       setCursorPosition({ x: e.clientX, y: e.clientY });
