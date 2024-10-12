@@ -1,8 +1,11 @@
-# React + Vite
+# Mask Effect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo shows a simple implementation of the mask effect with an added interactive feature that moves the mask with the mouse position.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Setup
+
+This project was built with react in vite, installed using npm. Clone the repo `cd` to root *maskeffect* and `npm install`. 
+`npm run dev` after installing dependencies to run dev server.
