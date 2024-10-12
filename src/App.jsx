@@ -22,7 +22,13 @@ function App() {
       className="text-red-600 h-screen w-screen absolute z-30"
       >
       <div className="absolute h-full w-full flex">
-        <motion.div ></motion.div>
+        <motion.div 
+          className="h-full w-full z-30 bg-[url('/lamboghini.jpg')] bg-cover bg-center"
+          style={{WebkitMaskImage:"url('https://img.icons8.com/fluency-systems-filled/100/filled-circle.png')",
+          maskRepeat:'no-repeat', 
+          maskPosition:'50%', 
+          maskSize:'200px'}}
+        ></motion.div>
       </div>
         <motion.div className="h-full w-full bg-black border-8 border-amber-500">  </motion.div>
     </motion.section>
