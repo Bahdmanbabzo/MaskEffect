@@ -27,6 +27,7 @@ function App() {
             WebkitMaskPosition:`${cursorPosition.x-170/2}px ${cursorPosition.y-170/2}px`
           }}
           transition={{type:'tween', ease:'backOut', duration:2}}
+          onClick={handleClick}
           className="h-full w-full z-30 bg-[url('/lamboghini.jpg')] bg-cover bg-center"
           style={{WebkitMaskImage:"url('https://img.icons8.com/fluency-systems-filled/100/filled-circle.png')",
           maskRepeat:'no-repeat', 
